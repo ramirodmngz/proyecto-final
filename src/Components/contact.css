@@ -1,0 +1,41 @@
+.contact{
+    width: 403.5px;
+    height: 71px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(17, 27, 33);
+    border-top: solid 0.5px rgb(33, 44, 51);
+    border-bottom: solid 0.5px rgb(33, 44, 51);
+    /* border-radius: 5px; */
+}
+
+.contact p{
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+.contact:hover{
+    background-color: rgb(42, 57, 66);
+}
+
+.contact img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 8px 6px 8px 12px;
+}
+
+@media screen and (max-width: 750px){
+    .contact{
+        width: 750px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .contact{
+        width: 320px;
+    }
+}

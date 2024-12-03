@@ -1,0 +1,111 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.main-recibido{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: flex-end; */
+    width: 100%;
+}
+
+
+.mensaje{
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    padding: 10px 15px;
+    margin: 5px 0;
+    font-size: 14px;
+    line-height: 1.5;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: rgb(0, 87, 71);
+    border-radius: 15px;
+    justify-content: space-between;
+    align-items: flex-end;
+    
+}
+
+.mensaje-recibido{
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    padding: 10px 15px;
+    margin: 5px 0;
+    font-size: 14px;
+    line-height: 1.5;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: rgb(32, 44, 51);
+    border-radius: 15px;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+
+.mensaje-text p{
+    width: 65%;
+    padding: 12px;
+    white-space: nowrap;
+
+}
+
+
+.mensaje-time{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    gap: 5px;
+}
+
+.mensaje-time i{
+    display: flex;
+    align-items: flex-end;
+    color: rgb(82, 189, 235);
+}
+
+.mensaje-time span{
+    display: flex;
+    align-items: flex-end;
+}
+
+
+@media screen and (max-width : 1200px){
+    .mensaje{
+        width: 50%;
+    }
+
+    .mensaje-recibido{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width : 1020px){
+    .mensaje .mensaje-recibido{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        padding: 2px;
+    }
+
+    .mensaje-text p{
+        width: 80%;
+        height: 100%;
+        padding: 5px;
+        white-space: normal;
+    }
+
+
+
+
+
+
+
+
+}

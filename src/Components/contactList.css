@@ -1,0 +1,192 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+.principal{
+    width: 403.5px;
+    background-color: rgb(17, 27, 33);
+
+}
+
+.header{
+    background-color: rgb(17, 27, 33);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;    
+    width: 415px;
+    height: 80px;    
+    /* margin-bottom: 15px; */
+}
+
+.btn{
+    width: 64px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    background-color: rgb(17, 27, 33);
+    color: white;
+    font-size: 20px;
+    margin: 0 15px;
+    color: rgb(174, 187, 194);
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+
+
+.title{
+    width: 480px;
+    background-color: rgb(17, 27, 33);
+    font-weight: bold;
+    font-size: 15px;
+    margin: 0 0 0 15px;
+    /* display: flex;
+    flex-direction: row;
+    align-items: space-between; */
+}
+
+.footer{
+    display: flex;
+    /* flex-direction: row; */
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.footer-form{
+    background-color: rgb(32, 44, 51);
+    display: flex;
+    flex-direction: row;
+    /* gap: 20px; */
+    margin-bottom: 10px;
+    align-items: center;
+    width: 95%;
+    height: 35px;
+    border-radius: 10px;
+}
+
+.footer-form i{
+    padding: 0px 25px 0 15px ;
+}
+
+
+.form-input{
+    width: 90%;
+    background-color: rgb(32, 44, 51);
+    border: none;
+
+}
+
+.form-input::placeholder{
+    color: white;
+}
+
+.form-input:focus-visible{
+    outline: none;
+}
+
+.btn-footer{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin: 0 10px 10px 10px;
+}
+
+.btn-footer button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    padding: 6px 15px;
+    white-space: nowrap;
+    width: 70px;
+    height: 32px;
+    border-radius: 15px;
+    background-color: rgb(32, 44, 51);
+    cursor: pointer;
+
+}
+
+.btn-footer button:active{
+    background-color: rgb(10, 51, 44);
+    color: rgb(7, 143, 134);
+    cursor: pointer;
+
+}
+
+.footer-archive{
+    width: 403.5px;
+    height: 40px;
+    background-color: rgb(17, 27, 33) ;
+    margin: 0 15px;
+    gap: 10px;
+
+}
+
+.footer-archive i{
+    color: rgb(0, 168, 132);
+    font-size: 20px;
+}
+
+.footer-archive button{
+    font-size: 20px;
+    color: white;
+    background-color: rgb(17, 27, 33);
+    margin: 0 20px;
+}
+
+.footer-archive:hover{
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 750px){
+    .header{
+        width: 750px;
+    }
+
+    .footer{
+        width: 680px;
+    }
+
+    .btn-footer{
+        width: 750px;
+        display: flex;
+        flex-direction: row;
+        gap: 120px;
+        padding: 10px;
+    }
+
+    .footer-archive{
+        width: 750px;
+    }
+
+    .principal{
+        width: 750px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .header{
+        width: 320px;
+    }
+
+    .footer{
+        width: 320px;
+    }
+
+    .btn-footer{
+        width: 320px;
+        gap: 5px;
+        margin: 0 5px;
+    }
+
+    .principal{
+        width: 320px;
+    }
+    
+    .footer-archive{
+        width: 300px;
+    }
+}
